@@ -1,0 +1,80 @@
+.add-student {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .student-form input,
+  .student-form select,
+  .student-form textarea,
+  .student-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .student-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .student-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .students-table {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .students-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .students-table th,
+  .students-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .students-table th {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
